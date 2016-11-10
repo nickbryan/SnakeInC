@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
     initialiseSignals();
     initialiseSnake((getWindowWidth() / 2), (getWindowHeight() / 2));
 
-    mvprintw(0, 1, "Snake by Nick Bryan");
+    mvprintw(0, 1, "Snake In C by Nick Bryan");
     drawArena((getWindowWidth() - 1), (getWindowHeight() - 1));
 
     while (gameIsRunning()) {
